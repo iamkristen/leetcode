@@ -1,5 +1,6 @@
 def rotate_left(arr, d):
     d %= len(arr)
+    print(9%8)
     return arr[d:] + arr[:d]
 
 
